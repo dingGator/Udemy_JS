@@ -9,17 +9,24 @@
 <!--method -->
 <form>
 <!--form action= "http://www.wikipedia.org" method="GET"-->
-<label>Username:
+<label><br>Username:
 <input type="text" placeholder = "username" name="username">
 </label>
-<label>Password:
-<input type="password" placeholder = "password" name="password">
+<label><br>Password:
+<input required type="password" placeholder = "password" name="password">
 </label>
 <!--another method to do label-->
-<label for = "address">Address</label>
-<input id= "address" type="text" placeholder = "addressa" name="Address">
+<label for = "address"><br>Address  </label>
+<input id= "address" type="text" placeholder = "address" name="Address">
+<!--add required to input for validation  -->
+<label for="city"><br>City      </label>
+<input required id= "city" type="text" placeholder ="city" name="city">
+<!--add type= for input validation-->
+<label for = "email"><br>Email  </label>
+<input id= "email" type="email" placeholder = "email" name="Email">
+
 <input type="submit" name="">
 </form>
-Hello
+<br>Hello
 </body>
 </html>
