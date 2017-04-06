@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<label for = "firstName">First Name:</label>
+	<input id = "firstName" type="text" placeholder = "John" name="firstName" required>
+	<label for ="lastName">Last Name:</label>
+	<input id= "lastName" type="text" placeholder = "Smith" name="lastName" required>
+
+<div>
+	<label for = "male">Male</label>
+	<input id = "male" type="radio" name="gender" value="male">
+
+	<label>Female</label>
+	<input id ="female" type="radio" name="gender" value="female">
+
+	<label>Other</label>
+	<input type="radio" name="gender" name="gender" value ="other">
+</div>
+<div>
+	<label><br>Email:
+	<input type="email" name="email" placeholder="your email" name= "email" required>
+	</label>
+	<label>Password:
+	<!-- pattern means 5 to ten characters acceptalbe-->
+	<!--title is the error message-->
+	<input pattern =".{5,10}" required title = "Password must be between 5 to 10 characters" type="password" name="password">
+	</label>
+<div>
+<label>Birthday:
+<select name = "month">
+	<option>Month</option>
+	<option value = "January">January</option>
+	<option value = "Febuary">Febuary</option>
+	<option value = "March">March</option>
+</select>
+<select name= "day">
+	<option>Day</option>
+	<option value = "1">1</option>
+	<option value = "2">2</option>
+	<option value = "3">3</option>
+</select>
+<select name = "year">
+	<option>Year</option>
+	<option value = "2015">2017</option>
+	<option value = "2016">2016</option>
+	<option value = "2017">2015</option>
+</select>
+</label>
+</div>
+<div>
+	<label for ="agreed"> I agree to the terms and conditions</label>
+	<input id = "agreed" type="checkbox" name="agreed">
+</div>
+
+
+</label>
+<button>Submit</button>
+</form>
+
+</body>
+</html>
