@@ -1,0 +1,30 @@
+h1{
+	color: #FFAA11;
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	}
+/* hexadecimal value of color
+#FFAA11   means FF value of red
+ 			AA is value of green
+ 			11 is value of blue */
+li{
+	color: green;
+	border: 8px dashed rgb(255,100,80) ;
+}
+h4{
+	color: rgb(68,0,100);
+	background: rgb(255,100,80);
+
+}
+/* rgb   is red green and blue combination*/
+h3{
+	color:rgba(11,99,150,.6);
+}
+/*rgba  a is transparency of the color*/
+body{/*
+	background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTIWLZhJbh3eijPWtW3J6GZs3zbU7LXAs5MPeW4TilzNBwhiruTVg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	*/
+	background: pink;}
