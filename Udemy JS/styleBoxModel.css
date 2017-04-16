@@ -1,0 +1,30 @@
+p{
+/*  order of box model
+margin
+border----
+padding
+
+element
+
+padding
+border----
+margin
+*/
+/*Content = width and height*/
+width: 50%;
+/*height: 50px;*/
+/* Borders*/
+border: 2px solid blue;
+/*border-left: 10px;
+/*Padding*/
+padding:10px;
+/*padding-left: 40px;*/
+
+
+/*Margin*/
+margin:100px;
+/*margin: 0 auto 0 auto;     center*/
+/*margin:0 auto;*/
+/*margin: 20px 40px 100px 100px;*/
+/*margin-top: 100px;*/
+}
