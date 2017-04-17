@@ -1,4 +1,4 @@
-h1{ margin: auto; }
+h1{ text-align: center; }
 table{
 	margin: auto;
 }
@@ -10,59 +10,9 @@ td{
 .vertical{
 	border-left: 1px solid black;
 	border-right: 1px solid black;
-	border-bottom: 1px solid black;
+
 }
 .horizontal{
 	border-bottom: 1px solid black;
+	border-top: 1px solid black;
 }
-/*
-#top_left {
-border: solid blue;
-border-left: 2px;
-border-top: 2px;
-margin-bottom: 0px;
-}
-
-#top_mid {
-	border: solid blue;
-	border-top: 2px;
-}
-}
-
-#top_right{
-	border: solid blue;
-border-right: 2px;
-border-top: 2px;
-
-}
-#mid_left{
-	border: solid blue;
-	border-left: 2px;
-
-}
-#mid_mid {
-	border: solid blue;
-
-}
-#mid_right{
-	border: solid blue;
-border-right: 2px;
-
-}
-#bot_left {
-	border: solid blue;
-	border-left: 2px;
-border-bottom: 2px;
-}
-#bot_mid {
-	border: solid blue;
-	border-bottom: 2px;
-
-}
-#bot_right{
-	border: solid blue;
-	border-right: 2px;
-	border-bottom: 2px;
-
-}
-*/
