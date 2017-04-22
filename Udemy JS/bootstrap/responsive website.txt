@@ -1,0 +1,42 @@
+
+<link rel="stylesheet" href="print.css" media="print">
+---------------
+<link rel="stylesheet" media="screen and (min-width: 500px)" href= "over500.css">
+-----------------
+body{
+	background-color: blue;
+	}
+------------
+@media print {
+  /* print style sheets go here */
+}
+---------------------
+@media screen and (min-width: 500px){
+body{ background-color: blue;}
+}
+-----------------------
+@import url(print.css) print;
+
+-------------------
+<script>
+  function() {
+    window.addEventListener('pagehide', logData, false);
+    function logData() {
+      navigator.sendBeacon(
+        'https://putsreq.herokuapp.com/Dt7t2QzUkG18aDTMMcop',
+        'Sent by a beacon!');
+    }
+  }();
+</script>
+-----------------
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-----------------
+set img to max-width=100%
+
+
+width=100%;
+
+img, embed, object, video {
+	max-width: 100%;
+	}
+	

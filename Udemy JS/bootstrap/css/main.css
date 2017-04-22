@@ -1,0 +1,163 @@
+/* Enter your custom CSS here */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+    outline: 1px solid red !important; 
+}
+
+body{
+    border: 1px solid white !important;
+}
+
+.container {
+        width: 1024px;
+        margin-left: 26px;
+        margin-right: 0px;
+        border: 1px solid white !important;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+
+h1 { 
+    width: 100%;
+	font-family: Verdana, sans-serif;
+    margin-top: 42px;
+    margin-bottom: 23px;
+    font-size: 48px;
+    color: #666;
+    text-align: center;
+   /* padding-left: 250px;*/
+    border: 2px solid white !important;                    
+	}
+img {
+    width: 35%; 
+    border: 3px solid white !important;
+    margin-bottom: 8px;
+    margin-left:0px;
+    }
+.main-features-box {
+    border-width: 1px;
+    border-style: solid;
+    border-color:#ccc;
+    width: 35%; 
+    margin-top: 21px;
+    padding-bottom:0px;
+    height: 224px;
+}
+.main-features-title {
+    margin-top: 27px;
+    color: #f07c17; 
+    font-size: 24px;
+    padding-left:29px;
+    font-weight: 700;
+    border: 1px solid white !important;
+    font-family: Verdana, sans-serif;
+}
+
+ul{
+    padding-top: 18px;
+    padding-left:68px;
+    color: #666;
+    border: 1px solid white !important
+}
+.feature-hold-drink {
+    font-size: 17px;
+    font-weight:600;
+    line-height: 2;
+    margin-right: 2px;
+    padding-left: 0px;
+    padding-right: 43px;
+    margin-bottom: 2px;
+    height: 30px;
+    font-family: Verdana, sans-serif;
+}
+.feature-energizing-color {
+    font-size: 17px;
+    font-weight:600;
+    line-height: 2;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+    height: 32px;
+    font-family: Verdana, sans-serif;
+}
+.feature-reminds-you-to-learn {
+    font-size: 17px;
+    font-weight:600;
+    line-height: 2;
+    margin-right: 1px;
+    padding-left: 0px;
+    padding-right: 44px;
+    margin-bottom: 0px;
+    height: 32px;
+    font-family: Verdana, sans-serif;
+}
+.col-md-6 {
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 650px;
+    height: 762px;
+}
+.description-title {
+    margin-top: 4px;
+    color: #f07c17; 
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 200px;
+    padding-top: 1px;
+    font-family: Verdana, sans-serif;
+	}
+.paragraph-one {
+    width: 580px;
+    color: #666;
+    padding-top:21px;
+    font-size:16px;
+    font-weight:300;
+    line-height:2;
+    margin-right: 1px;
+    padding-left: 0px;
+    padding-right: 44px;
+    margin-bottom: 0px;
+    height: 285px;
+    font-family: Verdana, sans-serif;
+}
+.paragraph-two {
+    width: 580px;
+    color: #666;
+    padding-top:1px;
+    font-size:16px;
+    font-weight:300;
+    line-height:2;
+    margin-right: 1px;
+    padding-left: 0px;
+    padding-right: 44px;
+    margin-bottom: 0px;
+    height: 200px;
+	font-family: Verdana, sans-serif;
+}
+.paragraph-three {
+    width: 580px;
+    color: #666;
+    padding-top:3px;
+    font-size:16px;
+    font-weight:300;
+    line-height:2;
+    margin-right: 1px;
+    padding-left: 0px;
+    padding-right: 43px;
+    margin-bottom: 0px;
+    height: 300px;
+    font-family: Verdana, sans-serif;
+}
+.mockup-overlay {
+        width: 1024px;
+       top: 0;
+       position: absolute;
+       z-index: -1;
+       opacity: 0.4;
+    }

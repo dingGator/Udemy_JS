@@ -1,0 +1,21 @@
+Submission
+
+When you're ready to submit your project go back to the Portal, click on the Project 1, and follow the instructions to submit.
+
+Start by creating a text file with a list of websites, books, forums, blog posts, Github repositories etc. that you referred to or used in this submission (Add N/A if you did not use such resources).
+If you want to submit your code through a "Link to Project", copy the code that passed the auto-evaluator into another text file, upload that code onto Github and send us the link. Please use a separate repository for each project.
+If you instead want to submit your code through "Upload a Zip", copy the code that passed the auto-evaluator into another text file, compress the entire directory, and submit that zip file.
+You should be submitting: (a) All of your Resource files (b) HTML and (c) CSS exactly like this folder structure:
+
+index.html
+references.txt
+/css/main.css
+/css/bootstrap.min.css
+/images/mug.png
+It can take us up to 2 weeks to evaluate the project so keep checking back for updates.
+
+If you are having any problems submitting your project or wish to check on the status of your submission, please email us at frontend-project@udacity.com.
+
+Next Steps
+
+Feel free to hop onto the forums to help your fellow students, or work on the optional bonus project of "Building a Portfolio" while you wait to receive your evaluation.
