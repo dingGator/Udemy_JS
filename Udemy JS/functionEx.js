@@ -23,3 +23,10 @@ function factorial(num2){
 	//return the result variable
 	return result;
 }
+
+function kebabToSnake(str){
+	//replace all '-' with "_" 's
+	var newStr = str.replace(/-/g, "_");
+	//return str
+	return newStr;
+}
