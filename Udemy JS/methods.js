@@ -1,3 +1,5 @@
+console.log("connected");
+
 var obj ={
 	name:"Chuck",
 	age: 45,
