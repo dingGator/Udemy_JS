@@ -18,6 +18,7 @@ h2.style.color = "red";
 var h1 = document.querySelector("h1");
 console.log("h1.classList  " + h1.classList);
 
+
 h1.classList.add("blue");
 console.log("h1.classList  " + h1.classList);
 var h1Blue = document.getElementsByClassName("blue");
@@ -45,3 +46,23 @@ img1.style.height ="350px";
 var a = document.querySelector("a");
 a.setAttribute("href", "http:www.cnn.com");
 a.textContent= "LINK TO CNN.COM";
+
+
+h1.addEventListener("click",function(){
+	alert("h1 was clicked!");
+});
+
+h1.addEventListener("click",function(){
+	h1.style.background ="orange";
+});
+
+document.querySelector("ul").addEventListener(
+	"click", function(){
+		console.log("YOU CLICKED THE UL!s")
+	});
+var lis =document.querySelectorAll("li");
+for(var i =0;i<lis.length; i++){
+	lis[i].addEventListener("click",function(){
+		this.style.color ="pink";
+	})
+};
