@@ -1,0 +1,51 @@
+
+/*Order of specificity
+Type selectors*/
+/*element*/
+li{
+
+}
+li a{
+
+}
+li + a{
+
+}
+/*class, attribute, and pseudo-class selectors*/
+.hello{
+
+}
+input[type="text"]{
+
+}
+/*id*/
+#name{
+
+}
+/*star -- select everything on page	*/
+
+*{
+	border: 1px solid lightgrey;
+}
+/* Descendant Selector*/
+li a{color: red;
+
+}
+/*Adjacent Selector*/
+h4+ ul{
+	border: 4px solid green;
+}
+/*Attribute Selector*/
+a[href="http://www.google.com"]{
+	background: lightblue;
+}
+input[type="text"] {
+	background: green;
+}
+/*nth of type*/
+ul:nth-of-type(3){
+	background: lightpurple;
+}
+li:nth-of-type(3){
+	background: purple;
+}
