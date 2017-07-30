@@ -1,1 +1,71 @@
-body{background-color: white}
+body{	font-family: Roboto;
+}
+/* uigradient for the background*/
+body{
+background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#container{
+	width: 360px;
+	/*
+	background-color: gray;
+	*/
+	background-color: #f7f7f7;
+	/*center with margin*/
+	margin: 100px auto;
+	/* border: 2px solid gray; */
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
+h1{
+	background-color: #2980b9;
+	color: white;
+	margin:0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+
+	/*the li will not have bullet point*/
+	list-style: none;
+
+}
+
+li{
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	color:#666;
+}
+
+li:nth-child(2n){
+	background-color: #f7f7f7;
+}
+
+input{
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #2980b9;
+
+}
+
+input:focus{
+	background-color: #fff;
+	border: 3px solid #2980b9;
+	outline:none;
+}
