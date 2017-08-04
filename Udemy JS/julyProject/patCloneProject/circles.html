@@ -4,10 +4,18 @@
 	<title>Circles</title>
 	<link rel="stylesheet" type="text/css" href="css/circles.css">
 	<script type="text/javascript" src="paper/dist/paper-full.js"></script>
+	<script type="text/javascript" src="sounds/howler/howler.js"></script>
+
 	<script type="text/paperscript" canvas="myCanvas">
+	var sound = new Howl({
+  src: ['sounds/bubbles.mp3']
+});
+
+
 	console.log("connected  ");
 	var circles =[];
 	function onKeyDown(event){
+		sound.play();
 		var maxPoint = new Point(view.size.width, view.size.height);
 		var randomPoint = Point.random();
 		var point = maxPoint * randomPoint;
